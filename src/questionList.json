@@ -1,0 +1,35 @@
+{
+    "quiz": [
+        {
+            "question": "Name of this Animal?",
+            "Picture" : "https://img.freepik.com/free-photo/3d-animated-cartoon-lion_23-2150800715.jpg",
+            "options": ["Deer", "Lion", "Bear", "Elephant"],
+            "correct": "Lion"
+        },
+        {
+            "question": "Name of this Fruit?",
+            "Picture":"https://i.pinimg.com/736x/80/d7/9e/80d79e2b7fed0447102cc7de07a3e4b0.jpg",
+            "options": ["Mango", "Orange", "Apple", "Grapes"],
+            "correct": "Mango"
+        },
+        {
+            "question": "Name of this Bird?",
+            "Picture" : "https://pics.craiyon.com/2023-10-19/9d5c2ab32a2543cbbe56531b9ccb9b4c.webp",
+            "options": ["Parrot", "Pigeon", "Peacock", "Crow"],
+            "correct": "Peacock"
+        },
+        {
+            "question": "Name of this Shape?",
+            "Picture" : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ8bTZ9ZnV4Xc-NeAmkPABojcRQj_0oRHS3A&s",
+            "options": ["Circle", "Square", "Rectangle", "Triangle"],
+            "correct": "Triangle"
+        },
+        {
+            "question": "Name of this Picture?",
+            "Picture" : "https://img.freepik.com/premium-photo/cartoon-car-with-eyes-tag-front_914455-625.jpg",
+            "options": ["Car", "Bike", "Mobile", "Aeroplane"],
+            "correct": "Car"
+        }
+    ]
+}
+

@@ -1,0 +1,129 @@
+
+.quiz-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 600px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+
+.quiz-container h3 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.quiz-image {
+    width: 100%;
+    max-width: 200px;
+    max-height: 200px;
+    
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.options-list {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+}
+
+.options-list li {
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #fff;
+    transition: background-color 0.3s;
+}
+
+.options-list li:hover {
+    background-color: #f0f0f0;
+}
+
+.options-list li.selected {
+    background-color: #ffeb3b;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+
+
+.button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.button:not(:disabled):hover {
+    background-color: #0056b3;
+}
+
+/* Css for request-list */
+.results-list {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    text-align: left;
+}
+
+.results-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.results-list img {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.results-list .correct {
+    color: green;
+}
+
+.results-list .incorrect {
+    color: red;
+}
+
+/* css for score  */
+.score {
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+@media (max-width: 600px) {
+    .button-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .quiz-image {
+        max-width: 100%;
+    }
+}
